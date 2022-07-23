@@ -1,0 +1,11 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "tutorial1"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-1del2xx77tupv"
+s3_prefix = "tutorial1"
+region = "us-east-1"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
+image_repositories = ["HelloWorldFunction=445669372316.dkr.ecr.us-east-1.amazonaws.com/tutorial1deebf9e3/helloworldfunction19d43fc4repo"]
