@@ -1,0 +1,11 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "wikiExample"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-1del2xx77tupv"
+s3_prefix = "wikiExample"
+region = "us-east-1"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
+image_repositories = ["HelloWorldFunction=445669372316.dkr.ecr.us-east-1.amazonaws.com/wikiexample6ee61478/helloworldfunction19d43fc4repo"]
